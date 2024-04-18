@@ -5,27 +5,87 @@
     "biome_source": {
       "biomes": [
         {
-          "biome": "minecraft:deep_ocean",
+          "biome": "lull:lull_cytoplasm",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
           }
         },
         {
-          "biome": "minecraft:stony_shore",
+          "biome": "lull:mangrove_cytoskeleton",
           "parameters": {
-            "continentalness": 0.0,
-            "depth": 0.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.175,
-            "temperature": -0.5,
-            "weirdness": 0.0
+            "temperature": 0.4,
+            "humidity": 0.4,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "lull:lull_cytoplasm_frozen",
+          "parameters": {
+            "temperature": -0.4,
+            "humidity": -0.4,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "lull:mangrove_cytoskeleton_frozen",
+          "parameters": {
+            "temperature": -0.4,
+            "humidity": 0.4,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.375
+          }
+        },
+        {
+          "biome": "lull:coral_matrix",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.2,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "lull:hydrothermal_respirator",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "lull:coral_matrix_bleached",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.375
           }
         }
       ],
