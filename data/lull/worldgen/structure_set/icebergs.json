@@ -1,0 +1,22 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 83469867,
+    "separation": 0,
+    "spacing": 1
+  },
+  "structures": [
+    {
+      "structure": "lull:iceberg",
+      "weight": 1
+    },
+    {
+      "structure": "lull:iceberg_floats",
+      "weight": 1
+    },
+    {
+      "structure": "lull:icebergu",
+      "weight": 1
+    }
+  ]
+}

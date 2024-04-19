@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#lull:has_structure/icebergs",
+  "max_distance_from_center": 128,
+  "size": 1,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 72
+  },
+  "start_pool": "lull:icebergsu",
+  "step": "surface_structures",
+  "use_expansion_hack": false
+}
