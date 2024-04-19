@@ -65,7 +65,7 @@
           }
         },
         {
-          "biome": "lull:hydrothermal_respirator",
+          "biome": "lull:hydrothermal_respiratory",
           "parameters": {
             "temperature": 1,
             "humidity": 0,

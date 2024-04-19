@@ -1,12 +1,10 @@
 {
   "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
+    "liquid": [
+      "minecraft:nether_cave"
     ]
   },
-  "downfall": 0.9,
+  "downfall": 1.0,
   "effects": {
     "fog_color": 12638463,
     "foliage_color": 9285927,
@@ -14,7 +12,7 @@
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "minecraft:ambient.cave",
+      "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
       "tick_delay": 6000
     },
     "music": {
@@ -23,37 +21,21 @@
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.swamp"
     },
-    "sky_color": 7907327,
-    "water_color": 3832426,
-    "water_fog_color": 5077600
+    "sky_color": 8224127,
+    "water_color": 3713198,
+    "water_fog_color": 4934478
   },
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
+    [],
     [
       "minecraft:amethyst_geode"
     ],
-    [
-      "minecraft:fossil_upper",
-      "minecraft:fossil_lower",
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    [],
     [],
     [],
     [
-      "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -61,8 +43,6 @@
       "minecraft:ore_iron_small",
       "minecraft:ore_gold",
       "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
       "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
@@ -71,13 +51,13 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_grass",
-      "minecraft:disk_clay"
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
     [],
     [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_water"
     ],
     [
       "minecraft:glow_lichen",
@@ -94,72 +74,16 @@
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 10
-      }
-    ],
+    "ambient": [],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:frog",
-        "maxCount": 5,
-        "minCount": 2,
-        "weight": 10
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
-      {
-        "type": "minecraft:spider",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:zombie",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 95
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:skeleton",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:creeper",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
       {
         "type": "minecraft:slime",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
-      },
-      {
-        "type": "minecraft:enderman",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:witch",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
       },
       {
         "type": "minecraft:slime",
@@ -178,13 +102,27 @@
     ],
     "water_ambient": [
       {
-        "type": "minecraft:tropical_fish",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 25
+        "type": "minecraft:salmon",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 15
+      },
+      {
+        "type": "minecraft:cod",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 15
       }
     ],
-    "water_creature": []
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 1
+      }
+    ]
   },
-  "temperature": 0.8
+  "temperature": 0.0,
+  "temperature_modifier": "frozen"
 }
