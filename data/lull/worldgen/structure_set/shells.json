@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 73960746,
+    "separation": 8,
+    "spacing": 34
+  },
+  "structures": [
+    {
+      "structure": "lull:shell",
+      "weight": 1
+    },
+    {
+      "structure": "lull:shellu",
+      "weight": 1
+    }
+  ]
+}
