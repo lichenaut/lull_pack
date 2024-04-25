@@ -1,0 +1,23 @@
+frog_cave_1
+frog_cave_2
+frog_cave_3
+turtle_cave_1
+turtle_cave_2
+turtle_cave_3
+abandoned_settlement_1
+abandoned_settlement_2
+abandoned_settlement_3
+ocean_temple
+bone_block_pillar
+bone_block_pillar_2
+amethyst_geode
+abandoned_terracotta_miner
+abandoned_terracotta_miner_2
+shackled_conduit
+industrial_boat_1
+industrial_boat_2
+industrial_boat_3
+
+deep sea mine (chain and ball)?
+
+boats can be rotated in any way (increments of 90 degrees)

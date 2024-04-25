@@ -1,0 +1,7 @@
+mangrove_forest
+lull_wastes
+coral_haven
+acidic_coral_haven
+frozen_wastes
+frozen_mangrove_forest
+hydrothermal_vents

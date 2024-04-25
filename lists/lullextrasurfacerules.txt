@@ -1,0 +1,15 @@
+general:
+calcite patches
+clay patches
+gravel patches
+
+forests:
+mud patches
+packed mud patches
+
+corals:
+sand patches
+
+vents:
+blackstone
+gilded blackstone
